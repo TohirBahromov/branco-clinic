@@ -33,14 +33,14 @@ import testimonials from "@/lang/testimonial.json";
 import result from "@/lang/result.json";
 import faqs from "@/lang/faqs.json";
 
+type Params = Promise<{ locale: AppLang }>;
 interface PageProps {
-  params: {
-    locale: AppLang;
-  };
+  params: Params;
 }
 
-export default async function Home({ params }: PageProps) {
-  const { locale } = params;
+export default async function Home(props: PageProps) {
+  const params = await props.params;
+  const locale = params.locale;
   return (
     <>
       {/* header */}

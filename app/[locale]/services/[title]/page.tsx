@@ -6,16 +6,15 @@ import Sidebar from "./Sidebar";
 import detailPages from "@/lang/services-pages.json";
 import Image from "next/image";
 
+type Params = Promise<{ title: string; locale: AppLang }>;
 interface PageProps {
-  params: {
-    title: string;
-    locale: AppLang;
-  };
+  params: Params;
 }
 
-const page = ({ params }: PageProps) => {
-  const { locale } = params;
-  const { title } = params;
+const page = async (props: PageProps) => {
+  const params = await props.params;
+  const title = params.title;
+  const locale = params.locale;
 
   const currentPage = detailPages.find((item) => item.title.url === title);
   const otherPages = detailPages.filter((item) => item !== currentPage);
