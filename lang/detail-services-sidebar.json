@@ -1,0 +1,52 @@
+{
+  "services-title": {
+    "uz": "Boshqa Servislarimiz",
+    "ru": "Другие наши Сервисы"
+  },
+  "workinghours-title": {
+    "uz": "Ish vaqti",
+    "ru": "Рабочее время"
+  },
+  "workinghours-days": [
+    {
+      "daytime": {
+        "uz": "Dush - Jum",
+        "ru": "Пн - Пт"
+      },
+      "time": {
+        "uz": "8:00 - 18:00",
+        "ru": "10:00 - 16:00"
+      }
+    },
+    {
+      "daytime": {
+        "uz": "Shan",
+        "ru": "Суб"
+      },
+      "time": {
+        "uz": "10:00 - 16:00",
+        "ru": "10:00 - 16:00"
+      }
+    },
+    {
+      "daytime": {
+        "uz": "Yak",
+        "ru": "Вос"
+      },
+      "time": {
+        "uz": "Yopiq",
+        "ru": "Закрытый"
+      }
+    }
+  ],
+  "call": {
+    "title": {
+      "uz": "Tishingizni davolatishingiz kerakmi?",
+      "ru": "Вам нужно лечить свой зуб?"
+    },
+    "desc": {
+      "uz": "24/7 qo'ngiroq",
+      "ru": "Круглосуточный звонок"
+    }
+  }
+}

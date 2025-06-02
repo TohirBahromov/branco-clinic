@@ -1,0 +1,52 @@
+{
+  "top": {
+    "phone": {
+      "uz": "Tishingizni ko'rish kerakmi?",
+      "ru": "Нужна помощь с зубами?"
+    },
+    "workinghours": {
+      "uz": "Ish vaqti",
+      "ru": "Рабочее время",
+      "desc": {
+        "uz": "Dush-Shan : 9:00-22:00",
+        "ru": "Пон-Суб: 9:00-22:00"
+      }
+    },
+    "button": {
+      "uz": "Qabulga yoziling",
+      "ru": "Запишитесь на прием"
+    }
+  },
+  "bottom": {
+    "title": {
+      "uz": "Biz haqimizda",
+      "ru": "О нас"
+    },
+    "headline": {
+      "uz": "Sizning tabassumingiz uchun sog‘lom va chiroyli tishlar!",
+      "ru": "Здоровая и красивая улыбка — наша забота!"
+    },
+    "desc": {
+      "uz": "Klinikamizning maqsadi – do‘stona va g‘amxo‘r tibbiy xizmat ko‘rsatish hamda umumiy, kosmetik va maxsus stomatologik davolash bo‘yicha eng yuqori darajadagi xizmatlarni taqdim etishdir. Bizning xizmatlar butun dunyo bo‘ylab tan olingan.",
+      "ru": "Цель нашей клиники — предоставить дружелюбное и заботливое обслуживание, а также высочайший уровень общих, косметических и специализированных стоматологических услуг. Наша практика известна по всему миру."
+    },
+    "experience": {
+      "uz": "Yillik tajriba",
+      "ru": "Годовой опыт"
+    },
+    "stats": {
+      "customers": {
+        "uz": "Umumiy mijozlar",
+        "ru": "Общие клиенты"
+      },
+      "satisfaction": {
+        "uz": "Mijozlarning xizmatlardan mamnunligi",
+        "ru": "Удовлетворенность клиентов услугами"
+      }
+    },
+    "button": {
+      "uz": "Ko'proq",
+      "ru": "Больше"
+    }
+  }
+}

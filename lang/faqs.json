@@ -1,0 +1,56 @@
+{
+  "title": {
+    "uz": "FAQs",
+    "ru": "FAQs"
+  },
+  "heading": {
+    "uz": "Tez-tez so‘raladigan savollar",
+    "ru": "Часто задаваемые вопросы"
+  },
+  "desc": {
+    "uz": "Bizning stomatologik xizmatlar, jarrohlik amaliyotlari va bemorlarga g'amxo'rlik qilish haqida tez-tez beriladigan savollarga javoblarni FAQ bo'limimizda topishingiz mumkin",
+    "ru": "Найдите быстрые ответы на распространённые вопросы о наших стоматологических услугах, процедурах и уходе за пациентами в разделе FAQ"
+  },
+  "call": {
+    "title": {
+      "uz": "24/7 Murojaat",
+      "ru": "Круглосуточный доступ"
+    },
+    "desc": {
+      "uz": "Qiziqtirgan savolni topa olmadingizmi?",
+      "ru": "Вы не нашли интересующий вас вопрос?"
+    }
+  },
+  "faqs": [
+    {
+      "question": {
+        "uz": "Tishlarni qanchalik tez-tez tekshirtirish kerak?",
+        "ru": "Как часто нужно проходить осмотр у стоматолога?"
+      },
+      "answer": {
+        "uz": "Har 6 oyda bir marta muntazam profilaktik ko'rikdan o'tish tavsiya etiladi. Bu tishlaringiz sog'lig'ini saqlash va erta bosqichdagi muammolarni aniqlash uchun juda muhim",
+        "ru": "Рекомендуется проходить профилактический осмотр каждые 6 месяцев. Это важно для поддержания здоровья зубов и выявления проблем на ранней стадии"
+      }
+    },
+    {
+      "question": {
+        "uz": "Tish og'rig'i paytida nima qilish kerak?",
+        "ru": "Что делать при острой зубной боли?"
+      },
+      "answer": {
+        "uz": "Darhol shifokoringizga murojaat qiling. Favqulodda holatlarda biz sizga 24/7 yordam ko'rsatamiz. Vaqtinchalik yengish uchun iliq sho'r suv bilan og'iz chayish mumkin",
+        "ru": "Немедленно обратитесь к стоматологу. В экстренных случаях мы оказываем помощь 24/7. Для временного облегчения можно прополоскать рот теплой соленой водой"
+      }
+    },
+    {
+      "question": {
+        "uz": "Implantatsiya qancha vaqt davom etadi?",
+        "ru": "Сколько времени занимает имплантация зубов?"
+      },
+      "answer": {
+        "uz": "Standart implantatsiya jarayoni 3-6 oyni oladi, bu suyakning implant bilan qo'shilish vaqtiga bog'liq. Ba'zi zamonaviy usullar bilan bu jarayon qisqartirilishi mumkin",
+        "ru": "Стандартный процесс имплантации занимает 3-6 месяцев в зависимости от времени приживления импланта. Некоторые современные методы позволяют сократить этот срок"
+      }
+    }
+  ]
+}

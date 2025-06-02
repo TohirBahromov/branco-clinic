@@ -1,0 +1,49 @@
+{
+  "title": {
+    "uz": "Bizning servislar",
+    "ru": "Наши сервисы"
+  },
+  "heading": {
+    "uz": "Har bir tabassum uchun keng qamrovli stomatologik xizmatlar",
+    "ru": "Комплексная стоматологическая помощь, адаптированная для каждой улыбки"
+  },
+  "button": {
+    "uz": "Barcha servislar",
+    "ru": "Все сервисы"
+  },
+  "cards": [
+    {
+      "icon": "/svg/icons/teeth-1.svg",
+      "title": {
+        "uz": "General Industry",
+        "ru": "General Industry"
+      },
+      "desc": {
+        "uz": "We are excited to meet you and provide the best dental care for your family.",
+        "ru": "We are excited to meet you and provide the best dental care for your family."
+      }
+    },
+    {
+      "icon": "/svg/icons/teeth-2.svg",
+      "title": {
+        "uz": "General Industry",
+        "ru": "General Industry"
+      },
+      "desc": {
+        "uz": "We are excited to meet you and provide the best dental care for your family.",
+        "ru": "We are excited to meet you and provide the best dental care for your family."
+      }
+    },
+    {
+      "icon": "/svg/icons/teeth-3.svg",
+      "title": {
+        "uz": "General Industry",
+        "ru": "General Industry"
+      },
+      "desc": {
+        "uz": "We are excited to meet you and provide the best dental care for your family.",
+        "ru": "We are excited to meet you and provide the best dental care for your family."
+      }
+    }
+  ]
+}

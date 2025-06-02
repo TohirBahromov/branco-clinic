@@ -1,0 +1,40 @@
+{
+  "title": {
+    "uz": "Professionalizm",
+    "ru": "Профессионализм"
+  },
+  "heading": {
+    "uz": "Tabassumingiz uchun mukammal parvarish – 3 ta filialda!",
+    "ru": "Идеальный уход за вашей улыбкой – в 3 филиалах!"
+  },
+  "desc": {
+    "uz": "Bizning tajribali shifokorlarimiz va zamonaviy uskunalarimiz bilan xizmat ko‘rsatamiz. Sizga qulay bo‘lgan 3 ta filialimizga tashrif buyuring.",
+    "ru": "Мы предоставляем высококачественные услуги с опытными врачами и современным оборудованием. Посетите один из наших 3 филиалов рядом с вами."
+  },
+  "list": [
+    {
+      "title": {
+        "uz": "Bemorlarimizning ehtiyojlari har doim birinchi o‘rinda",
+        "ru": "Потребности наших пациентов всегда на первом месте"
+      },
+      "desc": {
+        "uz": "Har bir bemorimizga alohida yondashamiz va sifatli xizmat ko‘rsatamiz",
+        "ru": "Индивидуальный подход и качественное обслуживание для каждого пациента"
+      }
+    },
+    {
+      "title": {
+        "uz": "3 ta filial bilan yanada yaqinmiz",
+        "ru": "3 филиала для вашего удобства"
+      },
+      "desc": {
+        "uz": "Sizga yaqin va qulay joylashgan filiallarimizda zamonaviy davolash imkoniyatlari mavjud",
+        "ru": "Удобное расположение и современные технологии для вашего комфорта"
+      }
+    }
+  ],
+  "stats": {
+    "uz": "ekspert shifokor",
+    "ru": "доктор-эксперт"
+  }
+}

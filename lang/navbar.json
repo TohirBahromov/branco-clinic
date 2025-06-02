@@ -1,0 +1,58 @@
+{
+  "list": {
+    "home": {
+      "uz": "Bosh sahifa",
+      "ru": "Главная",
+      "url": "/"
+    },
+    "about": {
+      "uz": "Biz haqimizda",
+      "ru": "О нас",
+      "url": "/#about"
+    },
+    "services": {
+      "uz": "Servislar",
+      "ru": "Услуги",
+      "url": "/services",
+      "dropdown": [
+        {
+          "title": {
+            "uz": "Tishlarni tozalash",
+            "ru": "Чистка зубов",
+            "url": "cleaning-teeth"
+          }
+        },
+        {
+          "title": {
+            "url": "plombing-teeth",
+            "uz": "Tishlarni plombalash",
+            "ru": "Пломбирование зубов"
+          }
+        },
+        {
+          "title": {
+            "url": "whitening-teeth",
+            "uz": "Tishlarni oqartirish",
+            "ru": "Отбеливание зубов"
+          }
+        },
+        {
+          "title": {
+            "url": "treating-teeth",
+            "uz": "Tishlarni davolash",
+            "ru": "Лечение зубов"
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "uz": "Qabulga yozilish",
+      "ru": "Запись",
+      "url": "/appointment"
+    }
+  },
+  "call": {
+    "uz": "Yordam kerakmi?",
+    "ru": "Нужна помощь?"
+  }
+}

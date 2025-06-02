@@ -1,0 +1,77 @@
+{
+  "hymn": {
+    "uz": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Incidunt, minima eveniet facere unde officia.",
+    "ru": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Incidunt, minima eveniet facere unde officia."
+  },
+  "socials": {
+    "uz": "Ijtimoiy tarmoqlar",
+    "ru": "Социальные сети"
+  },
+  "workinghours": {
+    "uz": "Ish vaqti",
+    "ru": "Рабочее время"
+  },
+  "sociallinks": {
+    "telegram": {
+      "uz": "Telegram",
+      "ru": "Телеграм",
+      "url": "https://t.me/"
+    },
+    "instagram": {
+      "uz": "Instagram",
+      "ru": "Инстаграм",
+      "url": "https://instagram.com/"
+    },
+    "youtube": {
+      "uz": "Youtube",
+      "ru": "Youtube",
+      "url": "https://youtube.com/"
+    },
+    "tiktok": {
+      "uz": "Tiktok",
+      "ru": "Тикток",
+      "url": "https://tiktok.com/"
+    }
+  },
+  "weekdays": {
+    "sunday": {
+      "uz": "Yakshanba",
+      "ru": "Воскресенье",
+      "time": "21:00 - 05:00"
+    },
+    "monday": {
+      "uz": "Dushanba",
+      "ru": "Понедельник",
+      "time": "8:00 - 16:00"
+    },
+    "tuesday": {
+      "uz": "Seshanba",
+      "ru": "Вторник",
+      "time": "8:00 - 16:00"
+    },
+    "wednesday": {
+      "uz": "Chorshanba",
+      "ru": "Среда",
+      "time": "12:00 - 20:00"
+    },
+    "thursday": {
+      "uz": "Payshanba",
+      "ru": "Четверг",
+      "time": "9:00 - 17:00"
+    },
+    "friday": {
+      "uz": "Juma",
+      "ru": "Пятница",
+      "time": "8:00 - 16:00"
+    },
+    "saturday": {
+      "uz": "Shanba",
+      "ru": "Суббота",
+      "time": "8:00 - 16:00"
+    }
+  },
+  "copyright": {
+    "uz": "Copyright © 2024, Barcha huquqlar himoyalangan",
+    "ru": "Copyright © 2024, Все права защищены"
+  }
+}

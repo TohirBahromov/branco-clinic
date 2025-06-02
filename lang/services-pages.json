@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "url": "cleaning-teeth",
+      "uz": "Tishlarni tozalash",
+      "ru": "Чистка зубов"
+    },
+    "contents": {
+      "uz": [
+        "Tishlarni tozalash xizmatimiz tishlaringizni sog‘lom va oppoq saqlashga yordam beradi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid.",
+        "Tajribali mutaxassislar tomonidan amalga oshirilgan professional tozalash jarayoni tishlarda toshlarni olib tashlaydi va nafasni tetiklantiradi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ],
+      "ru": [
+        "Наша услуга по чистке зубов помогает сохранить зубы здоровыми и белоснежными.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid.",
+        "Профессиональная чистка, выполненная опытными специалистами, удаляет зубной налет и освежает дыхание.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ]
+    },
+    "img": "/images/service-detail-img.jpg"
+  },
+  {
+    "id": 2,
+    "title": {
+      "url": "plombing-teeth",
+      "uz": "Tishlarni plombalash",
+      "ru": "Пломбирование зубов"
+    },
+    "contents": {
+      "uz": [
+        "Tishlaringizdagi kichik yoriqlar va karieslarni davolash uchun zamonaviy plombalash materiallaridan foydalanamiz.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid.",
+        "Plomba qo‘yish jarayoni og‘riqsiz va qulay bo‘lib, tishingizning tabiiy ko‘rinishini saqlab qoladi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ],
+      "ru": [
+        "Мы используем современные материалы для пломбирования зубов, чтобы устранить трещины и кариес. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid.",
+        "Процесс пломбирования безболезненный и комфортный, сохраняя естественный вид зуба. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ]
+    },
+    "img": "/images/service-detail-img.jpg"
+  },
+  {
+    "id": 3,
+    "title": {
+      "url": "whitening-teeth",
+      "uz": "Tishlarni oqartirish",
+      "ru": "Отбеливание зубов"
+    },
+    "contents": {
+      "uz": [
+        "Tabiiy tish oqartirish usullari bilan oppoq tabassumga ega bo‘ling.",
+        "Oqartirish jarayonida tishlarning emaliga zarar yetkazilmaydi va uzoq muddatli natijaga erishiladi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ],
+      "ru": [
+        "Получите белоснежную улыбку с помощью натуральных методов отбеливания.",
+        "В процессе отбеливания эмаль зубов не повреждается, и достигается долговременный результат.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ]
+    },
+    "img": "/images/service-detail-img.jpg"
+  },
+  {
+    "id": 4,
+    "title": {
+      "url": "treating-teeth",
+      "uz": "Tishlarni davolash",
+      "ru": "Лечение зубов"
+    },
+    "contents": {
+      "uz": [
+        "Tish og‘riqlari va boshqa muammolarni bartaraf etish uchun individual yondashuv.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid.",
+        "Bizning klinikamizda zamonaviy texnologiyalar yordamida tish kasalliklari samarali davolanadi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ],
+      "ru": [
+        "Индивидуальный подход к устранению зубной боли и других проблем.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid.",
+        "В нашей клинике эффективно лечат зубные заболевания с помощью современных технологий.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eos omnis quisquam quis provident magni accusantium perferendis quibusdam voluptate amet voluptatum dolores debitis dolorem magnam fugiat nihil necessitatibus impedit blanditiis, exercitationem natus! At laborum voluptas dolor soluta molestiae perferendis. Vero exercitationem minima hic rem? Aliquam hic a numquam quaerat quia facere sapiente deserunt, adipisci illum vel quo fugit laboriosam itaque dolor suscipit optio saepe porro nobis vero odio ex autem? Tempora sapiente et cupiditate, eligendi eius excepturi nisi, vitae, a accusamus fuga accusantium! Repellat velit aperiam perspiciatis esse, minima voluptates amet possimus quis perferendis nisi, repudiandae rem voluptatibus iusto? Aliquid."
+      ]
+    },
+    "img": "/images/service-detail-img.jpg"
+  }
+]

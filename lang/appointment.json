@@ -1,0 +1,90 @@
+{
+  "title": {
+    "uz": "Quyidagi formani to'ldiring. O'zimiz siz bilan aloqaga chiqamiz.",
+    "ru": "Заполните следующую форму. Мы сами свяжемся с вами."
+  },
+  "name": {
+    "placeholder": {
+      "uz": "Ismingiz",
+      "ru": "Ваше имя"
+    },
+    "error": {
+      "empty": {
+        "uz": "Maydon majburiy",
+        "ru": "Поле обязательно"
+      }
+    }
+  },
+  "phone": {
+    "placeholder": {
+      "uz": "99 999 99 99",
+      "ru": "99 999 99 99"
+    },
+    "error": {
+      "empty": {
+        "uz": "Maydon majburiy",
+        "ru": "Поле обязательно"
+      },
+      "incorrect": {
+        "uz": "Raqamni to'g'ri kiriting",
+        "ru": "Введите правильный номер"
+      }
+    }
+  },
+  "date": {
+    "placeholder": {
+      "uz": "Sanani tanlang",
+      "ru": "Выберите дату"
+    },
+    "error": {
+      "empty": {
+        "uz": "Maydon majburiy",
+        "ru": "Поле обязательно"
+      }
+    }
+  },
+  "time": {
+    "placeholder": {
+      "uz": "Vaqtni tanlang",
+      "ru": "Выберите время"
+    },
+    "error": {
+      "empty": {
+        "uz": "Maydon majburiy",
+        "ru": "Поле обязательно"
+      }
+    }
+  },
+  "branch": [
+    {
+      "address": {
+        "uz": "Yunusobod",
+        "ru": "Юнусабад"
+      }
+    },
+    {
+      "address": {
+        "uz": "Mirobod",
+        "ru": "Мирабад"
+      }
+    },
+    {
+      "address": {
+        "uz": "Yakkasaroy",
+        "ru": "Яккасарай"
+      }
+    }
+  ],
+  "successful": {
+    "uz": "Muvaffaqiyatli yuborildi",
+    "ru": "Отправлено успешно"
+  },
+  "button": {
+    "uz": "Qabulga yozilish",
+    "ru": "Записаться на приём"
+  },
+  "branch-question": {
+    "uz": "Qaysi filialga bormoqchisiz",
+    "ru": "В какой филиал вы хотите поехать?"
+  }
+}

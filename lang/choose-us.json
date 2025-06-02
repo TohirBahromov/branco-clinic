@@ -1,0 +1,53 @@
+{
+  "title": {
+    "uz": "Nega biz?",
+    "ru": "Почему мы?"
+  },
+  "heading": {
+    "uz": "Ishonchli natijalar, mukammal g'amxo'rlik",
+    "ru": "Результаты, которым можно доверять"
+  },
+  "desc": {
+    "uz": "Tish kasalliklarini aniq tashxislash davolash rejalarini samarali amalga oshirishni ta’minlaydi va og‘iz sog‘lig‘ini saqlash hamda asoratlarning oldini olishga yordam beradi. Bizning mutaxassislarimiz sizga eng yuqori sifatli tibbiy xizmat ko'rsatishga tayyor",
+    "ru": "Точный диагноз стоматологических заболеваний обеспечивает эффективные планы лечения, помогает поддерживать здоровье полости рта и предотвращать дальнейшие осложнения. Наши специалисты готовы предоставить вам медицинские услуги высочайшего качества"
+  },
+  "button": {
+    "uz": "Aloqaga chiqing",
+    "ru": "Свяжитесь с нами"
+  },
+  "list": [
+    {
+      "icon": "/svg/icons/emergency.svg",
+      "title": {
+        "uz": "Tezkor xizmatlar",
+        "ru": "Скорая помощь"
+      },
+      "desc": {
+        "uz": "Og'iz va tish sog'lig'ingizni ta'minlash uchun doimiy ravishda tayyormiz. Tez va ishonchli xizmatlarimizdan foydalaning",
+        "ru": "Мы всегда готовы обеспечить здоровье вашей полости рта и зубов. Доверьтесь нашим быстрым и надежным услугам"
+      }
+    },
+    {
+      "icon": "/svg/icons/positive.svg",
+      "title": {
+        "uz": "Bemorlardan ijobiy fikrlar",
+        "ru": "Положительные отзывы пациентов"
+      },
+      "desc": {
+        "uz": "Ko'p sonli bemorlarimiz bizning xizmatlarimizdan mamnun bo'lib, doimiy ravishda tavsiya qilishmoqda",
+        "ru": "Многие наши пациенты довольны нашими услугами и рекомендуют нас"
+      }
+    },
+    {
+      "icon": "/svg/icons/professors.svg",
+      "title": {
+        "uz": "Tajribali professional jamoa",
+        "ru": "Опытные профессионалы"
+      },
+      "desc": {
+        "uz": "Bizning klinikamiz tajribali mutaxassislardan iborat bo'lib, ular eng yaxshi natijalarni taqdim etishga intiladi",
+        "ru": "Наша клиника состоит из опытных специалистов, которые стремятся обеспечить лучшие результаты"
+      }
+    }
+  ]
+}

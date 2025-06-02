@@ -1,0 +1,18 @@
+{
+  "headline": {
+    "uz": "Tabassum sog‘liqni aks ettiradi. Biz esa uni mukammal qilamiz!",
+    "ru": "Улыбка отражает здоровье. Мы делаем её идеальной!"
+  },
+  "description": {
+    "uz": "Tabassumingiz salomatligi va go‘zalligiga qaratilgan yuqori sifatli stomatologik yordamdan bahramand bo‘ling. Yorqinroq, sog‘lomroq ertangi kunni yaratish uchun bizga ishoning.",
+    "ru": "Наслаждайтесь высококачественной стоматологической помощью, направленной на здоровье и красоту вашей улыбки. Доверяйте нам, чтобы создать более светлое, здоровое завтра."
+  },
+  "bookbtn": {
+    "uz": "Qabulga yozilish",
+    "ru": "Записаться на приём"
+  },
+  "call": {
+    "uz": "Operatorga bog'lanish",
+    "ru": "Связаться с оператором"
+  }
+}

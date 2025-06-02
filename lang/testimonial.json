@@ -1,0 +1,48 @@
+{
+  "title": {
+    "uz": "Mijozlar gapirsin",
+    "ru": "Пусть говорят клиенты!"
+  },
+  "heading": {
+    "uz": "Ajoyib xizmat va yutuqli tabassumlar haqida haqiqiy hikoyalar",
+    "ru": "Реальные истории об исключительном уходе и ослепительных улыбках"
+  },
+  "testimonials": [
+    {
+      "message": {
+        "uz": "Doktor Smit va jamoasi ajoyib edi! Birinchi qadamdan boshlab o'zimni qulay his qildim. Ularning e'tibori va xizmatlari juda ajoyib edi. Men har doim stomatologga borishdan qo'rqardim, lekin bu yerda jamoa meni juda xotirjam his qildi. Hammasini aniq tushuntirib berdilar va protsedura davomida yaxshi ekanimga amin bo'lishdi. Bu mening eng yaxshi tibbiy tajribam edi! Gigiyenistlar juda muloyim.",
+        "ru": "Доктор Смит и его команда были невероятны! С самого первого момента я почувствовала себя комфортно. Их внимание к деталям было выдающимся. Я всегда боялась ходить к стоматологу, но персонал здесь сделал всё, чтобы я чувствовала себя спокойно. Они всё чётко объяснили и убедились, что мне было хорошо на протяжении всей процедуры. Это был мой лучший опыт! Гигиенисты были очень нежны."
+      },
+      "image": "/images/doctor-avatar.jpg",
+      "name": "Dianne Russell",
+      "position": {
+        "uz": "Hammuassisi",
+        "ru": "Соучредитель"
+      }
+    },
+    {
+      "message": {
+        "uz": "Men Barno klinikasiga borganimda, menga g'amxo'rlik va e'tibor darajasi hayratda qoldirdi. Tibbiy xizmat nafaqat professional, balki juda qulay edi. Davolanishdan keyin o'zimni juda yaxshi his qildim!",
+        "ru": "Когда я пришел в Барно клинику, я был поражен уровнем заботы и внимания. Медицинское обслуживание было не только профессиональным, но и очень комфортным. После лечения я чувствовал себя прекрасно!"
+      },
+      "image": "/images/doctor-avatar.jpg",
+      "name": "Said Rahimov",
+      "position": {
+        "uz": "Biznesmen",
+        "ru": "Entrepreneur"
+      }
+    },
+    {
+      "message": {
+        "uz": "Davolanish jarayoni davomida barcha savollarimga tushunarli va batafsil javob oldim. Tibbiy xizmatdan juda mamnunman va oila a'zolarimga ham tavsiya qilaman!",
+        "ru": "В процессе лечения я получила понятные и подробные ответы на все свои вопросы. Очень довольна медицинским обслуживанием и рекомендую его своим близким!"
+      },
+      "image": "/images/doctor-avatar.jpg",
+      "name": "Zaynab Karimova",
+      "position": {
+        "uz": "O'qituvchi",
+        "ru": "Учительница"
+      }
+    }
+  ]
+}
