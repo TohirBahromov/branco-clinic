@@ -2,17 +2,17 @@ import detailPages from "@/lang/services-pages.json";
 import { AppLang } from "@/lib/types";
 import { redirect } from "next/navigation";
 
-interface Props {
+interface PageProps {
   params: {
     locale: AppLang;
   };
 }
 
-const page = ({ params }: Props) => {
-  const lang = params.locale;
+const page = async ({ params }: PageProps) => {
+  const { locale } = params;
   const firstDetailPageLink = detailPages[0].title.url;
 
-  redirect(`/${lang}/services/${firstDetailPageLink}`);
+  redirect(`/${locale}/services/${firstDetailPageLink}`);
   return <></>;
 };
 

@@ -23,7 +23,7 @@ import Compare from "@/components/Compare";
 import FAQs from "@/components/Faqs";
 import * as motion from "motion/react-client";
 
-// Language content
+// localeuage content
 import hero from "@/lang/hero.json";
 import about from "@/lang/about.json";
 import services from "@/lang/services.json";
@@ -33,14 +33,14 @@ import testimonials from "@/lang/testimonial.json";
 import result from "@/lang/result.json";
 import faqs from "@/lang/faqs.json";
 
-interface Props {
+interface PageProps {
   params: {
     locale: AppLang;
   };
 }
 
-export default function Home({ params }: Props) {
-  const lang = params.locale;
+export default async function Home({ params }: PageProps) {
+  const { locale } = params;
   return (
     <>
       {/* header */}
@@ -62,7 +62,7 @@ export default function Home({ params }: Props) {
               viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
-              {hero.headline[lang]}
+              {hero.headline[locale]}
             </motion.h1>
             <motion.p
               className="text-sm text-divider"
@@ -72,7 +72,7 @@ export default function Home({ params }: Props) {
               viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
-              {hero.description[lang]}
+              {hero.description[locale]}
             </motion.p>
             <Flexbox className="justify-center md:!flex-col md:!gap-4" gap={2}>
               <Button
@@ -89,7 +89,7 @@ export default function Home({ params }: Props) {
                   height={20}
                   color="#fff"
                 />{" "}
-                {hero.bookbtn[lang]}
+                {hero.bookbtn[locale]}
               </Button>
               <Button
                 variant="outline"
@@ -107,7 +107,7 @@ export default function Home({ params }: Props) {
                   color="#fff"
                   className="x"
                 />{" "}
-                {hero.call[lang]}
+                {hero.call[locale]}
               </Button>
             </Flexbox>
           </Flexbox>
@@ -142,7 +142,7 @@ export default function Home({ params }: Props) {
               />
               <div>
                 <h1 className="text-md font-semibold">
-                  {about.top.phone[lang]}
+                  {about.top.phone[locale]}
                 </h1>
                 <Link href={"tel:" + callNumber} className="text-sm">
                   {callNumber}
@@ -168,9 +168,9 @@ export default function Home({ params }: Props) {
               />
               <div>
                 <h1 className="text-md font-semibold">
-                  {about.top.workinghours[lang]}
+                  {about.top.workinghours[locale]}
                 </h1>
-                <p className="text-sm">{about.top.workinghours.desc[lang]}</p>
+                <p className="text-sm">{about.top.workinghours.desc[locale]}</p>
               </div>
             </Flexbox>
           </Flexbox>
@@ -182,7 +182,7 @@ export default function Home({ params }: Props) {
             transition={{ duration: 1, ease: "backInOut", delay: 0.4 }}
             viewport={{ once: true }}
           >
-            {about.top.button[lang]}
+            {about.top.button[locale]}
             <Icon
               svg="/svg/icons/plus.svg"
               width={24}
@@ -222,7 +222,7 @@ export default function Home({ params }: Props) {
                     <p>+</p>
                   </Flexbox>
                   <p className="text-white text-sm text-center">
-                    {about.bottom.experience[lang]}
+                    {about.bottom.experience[locale]}
                   </p>
                 </Flexbox>
               </div>
@@ -234,8 +234,8 @@ export default function Home({ params }: Props) {
             gap={5}
             className="overflow-hidden"
           >
-            <Title title={about.bottom.title[lang]} />
-            <Heading heading={about.bottom.headline[lang]} />
+            <Title title={about.bottom.title[locale]} />
+            <Heading heading={about.bottom.headline[locale]} />
             <motion.p
               variants={SlideTop}
               initial="hidden"
@@ -244,7 +244,7 @@ export default function Home({ params }: Props) {
               viewport={{ once: true }}
               className="text-sm text-textColor"
             >
-              {about.bottom.desc[lang]}
+              {about.bottom.desc[locale]}
             </motion.p>
             <Flexbox
               className="my-2 py-[25px] border-y border-divider lg:!flex-col lg:!items-start"
@@ -255,7 +255,7 @@ export default function Home({ params }: Props) {
                   12k
                 </h1>
                 <p className="text-textColor">
-                  {about.bottom.stats.customers[lang]}
+                  {about.bottom.stats.customers[locale]}
                 </p>
               </Flexbox>
               <Flexbox className="flex-1 justify-between" gap={2}>
@@ -263,7 +263,7 @@ export default function Home({ params }: Props) {
                   100%
                 </h1>
                 <p className="text-textColor">
-                  {about.bottom.stats.satisfaction[lang]}
+                  {about.bottom.stats.satisfaction[locale]}
                 </p>
               </Flexbox>
             </Flexbox>
@@ -298,11 +298,11 @@ export default function Home({ params }: Props) {
               gap={5}
               className="max-w-[70%] lg:max-w-full"
             >
-              <Title title={services.title[lang]} />
-              <Heading heading={services.heading[lang]} />
+              <Title title={services.title[locale]} />
+              <Heading heading={services.heading[locale]} />
             </Flexbox>
             <Button className="lg:mt-5">
-              {services.button[lang]}{" "}
+              {services.button[locale]}{" "}
               <Icon
                 svg="/svg/icons/plus.svg"
                 color="#fff"
@@ -317,8 +317,8 @@ export default function Home({ params }: Props) {
             {services.cards.map((item, index) => (
               <ServiceCard
                 key={index}
-                title={item.title[lang]}
-                desc={item.desc[lang]}
+                title={item.title[locale]}
+                desc={item.desc[locale]}
                 icon={item.icon}
                 img="/images/background/service1-bg.jpg"
                 link="/"
@@ -338,8 +338,8 @@ export default function Home({ params }: Props) {
             gap={5}
             className="w-1/2 xl:w-full overflow-hidden"
           >
-            <Title title={expertise.title[lang]} />
-            <Heading heading={expertise.heading[lang]} />
+            <Title title={expertise.title[locale]} />
+            <Heading heading={expertise.heading[locale]} />
             <motion.p
               className="text-textColor text-sm"
               variants={Fade}
@@ -348,7 +348,7 @@ export default function Home({ params }: Props) {
               transition={{ duration: 2, ease: "backInOut" }}
               viewport={{ once: true }}
             >
-              {expertise.desc[lang]}
+              {expertise.desc[locale]}
             </motion.p>
             <div className="w-full h-[1px] bg-divider my-5"></div>
             <Flexbox align="col" center={false} className="!gap-[30px]">
@@ -371,9 +371,11 @@ export default function Home({ params }: Props) {
                   />
                   <div>
                     <h1 className="text-md font-bold text-primary mb-5">
-                      {item.title[lang]}
+                      {item.title[locale]}
                     </h1>
-                    <p className="text-sm text-textColor">{item.desc[lang]}</p>
+                    <p className="text-sm text-textColor">
+                      {item.desc[locale]}
+                    </p>
                   </div>
                 </Flexbox>
               ))}
@@ -437,7 +439,7 @@ export default function Home({ params }: Props) {
                   <Counter end={20} /> <span>+</span>
                 </Flexbox>
                 <p className="text-sm text-textColor">
-                  {expertise.stats[lang]}
+                  {expertise.stats[locale]}
                 </p>
               </div>
             </motion.div>
@@ -458,8 +460,8 @@ export default function Home({ params }: Props) {
               gap={5}
               className="w-1/3 p-[10px] xl:w-full xl:mb-[10px] overflow-hidden"
             >
-              <Title title={whyus.title[lang]} className="text-white" />
-              <Heading heading={whyus.heading[lang]} className="text-white" />
+              <Title title={whyus.title[locale]} className="text-white" />
+              <Heading heading={whyus.heading[locale]} className="text-white" />
               <motion.p
                 className="text-sm"
                 variants={SlideTop}
@@ -468,7 +470,7 @@ export default function Home({ params }: Props) {
                 viewport={{ once: true }}
                 transition={{ duration: 1, ease: "easeInOut" }}
               >
-                {whyus.desc[lang]}
+                {whyus.desc[locale]}
               </motion.p>
               <Button
                 className="hover:border-white w-max mt-[30px]"
@@ -478,7 +480,7 @@ export default function Home({ params }: Props) {
                 viewport={{ once: true }}
                 transition={{ duration: 1, ease: "easeInOut" }}
               >
-                {whyus.button[lang]}
+                {whyus.button[locale]}
                 <Icon
                   svg="/svg/icons/plus.svg"
                   width={24}
@@ -521,9 +523,9 @@ export default function Home({ params }: Props) {
                   <IconHolder icon={item.icon} iconSize={30} shape="square" />
                   <div>
                     <h1 className="text-md font-bold mb-1">
-                      {item.title[lang]}
+                      {item.title[locale]}
                     </h1>
-                    <p className="text-sm">{item.desc[lang]}</p>
+                    <p className="text-sm">{item.desc[locale]}</p>
                   </div>
                 </motion.article>
               ))}
@@ -553,14 +555,14 @@ export default function Home({ params }: Props) {
             gap={5}
             className="pb-[60px] w-[70%] overflow-hidden"
           >
-            <Title title={testimonials.title[lang]} className="text-white" />
+            <Title title={testimonials.title[locale]} className="text-white" />
             <Heading
-              heading={testimonials.heading[lang]}
+              heading={testimonials.heading[locale]}
               className="text-white"
             />
           </Flexbox>
 
-          <TestimonialCarousel lang={lang} />
+          <TestimonialCarousel lang={locale} />
         </div>
       </section>
 
@@ -573,8 +575,8 @@ export default function Home({ params }: Props) {
             gap={5}
             className="w-[70%] mb-10 lg:w-full overflow-hidden"
           >
-            <Title title={result.title[lang]} />
-            <Heading heading={result.heading[lang]} />
+            <Title title={result.title[locale]} />
+            <Heading heading={result.heading[locale]} />
           </Flexbox>
 
           <Flexbox className="py-[10px] !gap-[30px] lg:!flex-col">
@@ -603,8 +605,8 @@ export default function Home({ params }: Props) {
                 gap={5}
                 className="mb-[30px] overflow-hidden"
               >
-                <Title title={faqs.title[lang]} />
-                <Heading heading={faqs.heading[lang]} />
+                <Title title={faqs.title[locale]} />
+                <Heading heading={faqs.heading[locale]} />
                 <motion.p
                   className="text-sm text-textColor"
                   variants={SlideRight}
@@ -613,7 +615,7 @@ export default function Home({ params }: Props) {
                   transition={{ duration: 1, ease: "easeInOut" }}
                   viewport={{ once: true }}
                 >
-                  {faqs.desc[lang]}
+                  {faqs.desc[locale]}
                 </motion.p>
               </Flexbox>
               <Flexbox
@@ -636,10 +638,10 @@ export default function Home({ params }: Props) {
 
                 <Flexbox align="col" center={false} className="!gap-[10px]">
                   <p className="text-sm text-textColor">
-                    {faqs.call.desc[lang]}
+                    {faqs.call.desc[locale]}
                   </p>
                   <h1 className="text-[22px] lg:text-md leading-[1.2em] font-semibold">
-                    {faqs.call.title[lang]}
+                    {faqs.call.title[locale]}
                   </h1>
                   <Link
                     href={`tel:${callNumber}`}
@@ -650,7 +652,7 @@ export default function Home({ params }: Props) {
                 </Flexbox>
               </Flexbox>
             </div>
-            <FAQs lang={lang} />
+            <FAQs lang={locale} />
           </Flexbox>
         </div>
       </section>

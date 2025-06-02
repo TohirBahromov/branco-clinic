@@ -6,16 +6,16 @@ import Sidebar from "./Sidebar";
 import detailPages from "@/lang/services-pages.json";
 import Image from "next/image";
 
-interface Props {
+interface PageProps {
   params: {
     title: string;
     locale: AppLang;
   };
 }
 
-const page = ({ params }: Props) => {
-  const lang = params.locale;
-  const title = params.title;
+const page = ({ params }: PageProps) => {
+  const { locale } = params;
+  const { title } = params;
 
   const currentPage = detailPages.find((item) => item.title.url === title);
   const otherPages = detailPages.filter((item) => item !== currentPage);
@@ -27,16 +27,16 @@ const page = ({ params }: Props) => {
   return (
     <div className="py-[80px] xl:pt-[40px] container flex xl:flex-col gap-[60px] relative">
       <section className="flex flex-col gap-[30px] xl:w-full">
-        <h1 className="text-2xl font-semibold">{currentPage.title[lang]}</h1>
+        <h1 className="text-2xl font-semibold">{currentPage.title[locale]}</h1>
         <div className="relative w-full h-[500px]">
           <Image
             src={currentPage.img}
             fill
-            alt={currentPage.title[lang] + " image"}
+            alt={currentPage.title[locale] + " image"}
             className="object-cover rounded-[40px]"
           />
         </div>
-        {currentPage.contents[lang].map((item, index) => (
+        {currentPage.contents[locale].map((item, index) => (
           <p key={index} className="text-textColor">
             {item} Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Officia enim saepe quisquam culpa iusto quasi itaque mollitia
@@ -55,7 +55,7 @@ const page = ({ params }: Props) => {
           </p>
         ))}
       </section>
-      <Sidebar lang={lang} pages={otherPages} />
+      <Sidebar lang={locale} pages={otherPages} />
     </div>
   );
 };
