@@ -39,8 +39,8 @@ interface Props {
   };
 }
 
-export default async function Home({ params }: Props) {
-  const lang = await params.locale;
+export default function Home({ params }: Props) {
+  const lang = params.locale;
   return (
     <>
       {/* header */}

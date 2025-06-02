@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   description: "Barno's Clinic - Your Health, Our Priority",
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params: { locale },
 }: Readonly<{
   children: React.ReactNode;
   params: { locale: AppLang };
 }>) {
-  const lang = await locale;
+  const lang = locale;
 
   if (!availableLocales.includes(locale)) {
     notFound();

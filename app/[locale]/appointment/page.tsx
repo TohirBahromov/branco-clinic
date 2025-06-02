@@ -5,8 +5,8 @@ interface Props {
   params: { locale: AppLang };
 }
 
-const page = async ({ params }: Props) => {
-  const lang = await params.locale;
+const page = ({ params }: Props) => {
+  const lang = params.locale;
   return (
     <>
       <section className="container py-[20px]">

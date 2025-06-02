@@ -8,8 +8,8 @@ interface Props {
   };
 }
 
-const page = async ({ params }: Props) => {
-  const lang = await params.locale;
+const page = ({ params }: Props) => {
+  const lang = params.locale;
   const firstDetailPageLink = detailPages[0].title.url;
 
   redirect(`/${lang}/services/${firstDetailPageLink}`);

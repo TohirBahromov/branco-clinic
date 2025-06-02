@@ -13,9 +13,9 @@ interface Props {
   };
 }
 
-const page = async ({ params }: Props) => {
-  const lang = await params.locale;
-  const title = await params.title;
+const page = ({ params }: Props) => {
+  const lang = params.locale;
+  const title = params.title;
 
   const currentPage = detailPages.find((item) => item.title.url === title);
   const otherPages = detailPages.filter((item) => item !== currentPage);
